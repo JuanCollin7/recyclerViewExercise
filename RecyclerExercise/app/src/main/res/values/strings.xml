@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecyclerExercise</string>
+    <string name="title">TITLE</string>
+    <string name="is_completed">IS COMPLETED</string>
+    <string name="name">NAME</string>
+    <string name="username">USERNAME</string>
+    <string name="phone">PHONE</string>
+    <string name="email">EMAIL</string>
+    <string name="body">BODY</string>
+    <string name="user_id">USER ID</string>
+</resources>

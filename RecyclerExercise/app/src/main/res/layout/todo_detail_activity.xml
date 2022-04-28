@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="toDoItem"
+            type="com.jc.recyclerexercise.models.ToDoItem" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/title"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@{toDoItem.title ?? ""}'
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <TextView
+            android:id="@+id/completedHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/is_completed"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <Switch
+            android:id="@+id/completedSwitch"
+            android:layout_width="46dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="12dp"
+            android:minHeight="48dp"
+            android:checked='@{toDoItem.completed ?? false}'/>
+
+    </LinearLayout>
+</layout>

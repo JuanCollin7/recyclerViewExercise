@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/album_detail_activity.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/album_item_view.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/albums_activity.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/albums_fragment.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/comment_detail_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/comment_item_view.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/comments_activity.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/comments_fragment.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/main_activity.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/main_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/photo_detail_activity.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/photo_item_view.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/photos_activity.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/photos_fragment.xml" value="0.2859375" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/post_detail_activity.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/post_item_view.xml" value="0.2815384615384615" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/posts_activity.xml" value="0.287962962962963" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/posts_fragment.xml" value="0.287962962962963" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/todo_detail_activity.xml" value="0.25" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/todo_item_view.xml" value="0.2815384615384615" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/todos_activity.xml" value="0.2815384615384615" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/todos_fragment.xml" value="0.2815384615384615" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/user_detail_activity.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/user_item_view.xml" value="0.287962962962963" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/users_activity.xml" value="0.2815384615384615" />
+        <entry key="..\:/Users/juanl/Documents/Android/RecyclerExercise/app/src/main/res/layout/users_fragment.xml" value="0.2815384615384615" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

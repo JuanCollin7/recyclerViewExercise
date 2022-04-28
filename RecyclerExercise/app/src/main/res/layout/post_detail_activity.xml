@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="post"
+            type="com.jc.recyclerexercise.models.Post" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/postDetailTitleHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/title"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/postDetailTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@{post.title ?? ""}'
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <TextView
+            android:id="@+id/postDetailBodyHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/body"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/postDetailBodyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@{post.body ?? ""}'
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+    </LinearLayout>
+</layout>
